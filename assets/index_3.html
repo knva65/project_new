@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFLUEMZ</title>
+    <link rel="shortcut icon" href="/week_3/assets/images/Influemz.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="/week_3/assets/css/normalize.css" />
+    <style>
+        
+        .body1 {
+            width: 1918px;
+            height: 880px;
+            right: 0px;
+            top: 0px;
+
+            background: #493296;
+        }
+
+        .body3 {
+            position: absolute;
+            width: 1920px;
+            height: 680px;
+            right: 0px;
+            top: 1540px;
+
+            background-color: #F8F9FB;
+        }
+
+        .one {
+            margin-left: 120px; 
+            font-size: 40px; 
+            color: #EC5778;
+        }
+        .two {
+            color: #62D2D0; 
+            font-size: 40px;   
+        }
+        .logo {
+        position: absolute;    
+        top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        .menu1 {
+            
+            margin-left: 200px;
+            text-align:center;
+           
+            font-size: 18px;
+        }
+        .menu2, .menu3, .menu4, .menu5, .menu6 {
+            margin-left: 65px;
+            text-align:center;
+            font-size: 18px;
+        }
+        .menu {
+            position: absolute;    
+            top: 53px;
+            left: 300px;
+            bottom: 40px;
+        }
+
+        .line {
+            position: absolute;
+            top: 120px;
+            width: 100vw; 
+            height: 10px;
+            overflow: hidden;
+        }
+        .net {
+            text-decoration-line: none;
+        }
+        .net:hover {
+            text-decoration-line: underline;
+        }
+
+
+h1 {
+position: absolute;
+width: 767px;
+height: 68px;
+right: 1030px;
+top: 206px;
+
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 58px;
+line-height: 68px;
+/* identical to box height, or 117% */
+color: #ffffff;
+        }
+
+#text {
+position: absolute;
+width: 818px;
+height: 96px;
+right: 979px;
+top: 348px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+/* светло/фиолетовый */
+color: #F7F2FF;
+}
+
+button {
+position: absolute;
+width: 247px;
+height: 65px;
+right: 1550px;
+top: 482px;
+
+background: #EC5778;
+box-shadow: 0px 10px 50px rgba(236, 87, 120, 0.2);
+border-radius: 5px;
+}
+
+button:active {
+background-color: #62D2D0; /* Цвет кнопки при нажатии */
+}
+
+button:hover {
+background-color: #62D2D0; /* Цвет кнопки при наведении курсора */
+}
+
+a {
+user-select: none; /* Убираем текстовое выделение */
+text-decoration: none;	/* Убираем подчеркивание */
+outline: none; /* Убираем контур вокруг ссылки */
+padding: 1em 2em; /* Отступ от текста до рамки */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+/* Чистый/белый */
+color: #FFFFFF;
+}
+
+#main1 {
+position: absolute;
+width: 937px;
+height: 664px;
+left: 944px;
+top: 158px;
+}
+
+#social1 {
+    position: absolute;
+width: 38px;
+height: 38px;
+left: 110px;
+top: 589px;
+}
+
+#social2 {
+    position: absolute;
+width: 38px;
+height: 38px;
+left: 160px;
+top: 589px;
+}
+
+.title2 {
+position: absolute;
+width: 438px;
+height: 60px;
+right: 730px;
+top: 1000px;
+
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 52px;
+line-height: 60px;
+/* identical to box height, or 115% */
+
+text-align: center;
+
+/* Черный */
+
+color: #181818;
+}
+
+.title3 {
+width: 1000px;
+height: 100px;
+padding-left: 488px;
+padding-top: 100px;
+
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 50px;
+/* identical to box height, or 115% */
+
+text-align: center;
+
+/* Черный */
+
+color: #181818;
+}
+
+.title4 {
+position: absolute;
+width: 646px;
+height: 60px;
+right: 1150px;
+top: 2405px;
+
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 52px;
+line-height: 60px;
+/* identical to box height, or 115% */
+/* Черный */
+
+color: #181818;
+}
+
+.title5 {
+position: relative;
+width: 491px;
+height: 34px;
+left: 121px;
+top: 2650px;
+
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 52px;
+line-height: 34px;
+/* identical to box height, or 155% */
+
+
+/* черный светлый */
+
+color: #2E313F;
+}
+
+#stars {
+    position: absolute;
+    left: 690px;
+top: 930px;
+}
+
+#stars2 {
+position: absolute;
+width: 507px;
+height: 507px;
+left: 1097px;
+top: 966px;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+/* Желтый */
+
+}
+
+.line1, .line2, .line3, .line4 {
+position: absolute;
+width: 350px;
+height: 0px;
+top: 1150px;
+/* черный светлый */
+border: 1px solid #2E313F;
+}
+
+.line1 {
+left: 121px;
+}
+
+.line2 {
+    left: 550px;
+}
+
+.line3 {
+    left:979px;
+}
+
+.line4 {
+    left: 1410px;
+}
+
+.t1, .t2, .t3, .t4 {
+position: absolute;
+width: 337px;
+height: 28px;
+top: 1170px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 28px;
+/* identical to box height, or 108% */
+
+
+/* черный светлый */
+
+color: #2E313F;
+}
+
+.t1 {
+left: 121px;
+}
+
+.t2 {
+    left: 550px;
+}
+
+.t3 {
+    left:979px;
+}
+
+.t4 {
+    left: 1410px;
+}
+
+.t_t1, .t_t2, .t_t3, .t_t4 {
+position: absolute;
+width: 389px;
+height: 210px;
+top: 1210px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+/* черный светлый */
+
+color: #3c4052;
+}
+
+.t_t1 {
+left: 121px;
+}
+
+.t_t2 {
+    left: 550px;
+}
+
+.t_t3 {
+    left: 979px;
+}
+
+.t_t4 {
+    left: 1410px;
+}
+
+.tez1, .tez2, .tez3, .tez4 {
+    position: absolute;
+    left: 620px;
+    width: 900px;
+    height: 64px;
+    
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.tez1 {
+    padding-top: 50px;
+    }
+
+.tez2 {
+    padding-top: 20px;
+}
+
+.tez3 {
+    padding-top: 10px;
+}
+
+
+#tezis1, #tezis2, #tezis3, #tezis4 {
+    padding-left: 550px;
+    width: 74px;
+    height: 74px;
+    }
+
+#tezis1 {
+    padding-top: 50px;
+}
+
+#tezis2 {
+    padding-top: 15px;
+}
+
+#tezis3 {
+    padding-top: 5px;
+}
+#rectangle {
+	position: absolute;
+width: 1302px;
+height: 185px;
+right: 308px;
+top: 600px;
+
+/* Розовый */
+
+background: #EC5778;
+border-radius: 2px;
+}
+.text3 {
+position: absolute;
+width: 874px;
+height: 73.99px;
+right: 522px;
+top: 670px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+text-align: center;
+
+/* Белый */
+
+color: #F8F7F7;
+
+}
+
+#heart {
+    position: absolute;
+width: 35px;
+height: 35px;
+right: 370px;
+top: 620px;
+}
+
+#phone {
+    position: absolute;
+width: 1676px;
+height: 923.01px;
+left: 121px;
+top: 2513px;
+}
+
+#rectangle2 {
+position: absolute;
+width: 1918px;
+height: 662px;
+right: 0px;
+top: 2800px;
+overflow: hidden;
+
+background: #493296;
+}
+
+.clients {
+    position: absolute;
+width: 1676px;
+height: 186px;
+left: 121px;
+top: 3622px;
+margin-bottom: 90px;
+}
+
+.footer {
+position: absolute;
+width: 1918px;
+height: 200px;
+right: 0px;
+top: 3900px;
+
+/* фиолетовый */
+
+background: #493296;
+}
+
+.logo2 {
+        position: absolute;    
+        top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu22 {
+    position: absolute; 
+    top: 50px;
+    right: 121px;
+}
+.adress {
+position: absolute;
+width: 336px;
+height: 22px;
+bottom: 40px;
+left: 45vw;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+
+
+/* светло/фиолетовый */
+
+color: #F7F2FF;
+}
+
+        </style>
+</head>
+<body>
+    <header>
+    <div class="logo"><span class="one"><b>INFLU</b></span>
+        <span class="two"><b>EMZ</b></span> </div>
+<nav>
+    <div class="menu">
+        <span class="menu1"><a style="color: #F8F7F7" class="net" href='/html/'>Сотрудничество</a></span>
+        <span class="menu2"><a style="color: #F8F7F7" class="net" href='/html/'>Клиенты</a></span>
+        <span class="menu3"><a style="color: #F8F7F7" class="net" href='/html/'>Эффективность</a></span>
+        <span class="menu4"><a style="color: #F8F7F7" class="net" href='/html/'>Как мы работаем</a></span>
+        <span class="menu5"><a style="color: #F8F7F7" class="net" href='/html/'>Проекты</a></span>
+        <span class="menu5"><a style="color: #F8F7F7" class="net" href='/html/'>Контакты</a></span>
+    </div>
+
+    <svg class="line" >
+    <rect fill="#F2F2F2"
+    width="1920"
+    height="1"
+    />
+    </svg>
+    </nav>
+    
+ </header>
+
+<main>
+    <section class="body1">
+<div>
+    <h1>Инфлюемз агентство ЕМЗ</h1>
+</div>
+<div id="text">
+    Реализуем рекламные проекты у блогеров, лидеров мнений, селебрити, инфлюенсеров <br/>и трендсеттеров. Наши проекты повышают лояльность к бренду <br/>и увеличивают продажи. 
+</div>
+<button>
+    <a href="https://nataliakv.tilda.ws">Оставить заявку</a>
+</button>
+
+<div>
+    <img id="social1" src="/week_3/assets/images/inst.png" alt="инстаграм"/>
+    <img id="social2" src="/week_3/assets/images/youtube.png" alt="ютуб"/>
+</div>
+
+<div>
+<img id="main1" src="/week_3/assets/images/1.png" alt="Инфлюемз"/>
+</div>
+</section>
+
+<section class="body2">
+    <div>
+        <img id="stars" src="/week_3/assets/images/звездочки.png" alt="инстаграм"/>
+            </div>
+    <div class="title2">Сотрудничество</div>
+
+    <svg class="line1" >
+        <rect fill="#2E313F"
+        width="390"
+        height="1"
+        />
+        </svg>
+
+    <div class="t1">Обучение/консультации</div>
+<div class="t_t1">Учим  и обьясняем как работать <br/>с блогерами, как выбирать, оценивать<br/>и сколько платить, чтобы не выбросить<br/> деньги на ветер, как придумать рекламу <br/> под блогера, как договориться на ваши <br/>условия, как проанализировать<br/> рекламную компанию.</div>
+
+<svg class="line2" >
+    <rect fill="#2E313F"
+    width="390"
+    height="1"
+    />
+    </svg>
+
+<div class="t2">Продюсирование</div>
+<div class="t_t2">Помогаем в продвижении <br/>и монетизации аккаунтов в социальных<br/>сетях. Занимаемся запусками продуктов,<br/> генерируем высокий уровень <br/> вовлекающего контента.</div>
+
+
+<svg class="line3" >
+    <rect fill="#2E313F"
+    width="390"
+    height="1"
+    />
+    </svg>
+
+<div class="t3">Амбассадорство</div>
+<div class="t_t3">Привлекаем и создаем<br/>бренд-амбассадоров, который<br/>представит интересы бренда среди<br/> целевой аудитории.</div>
+
+<svg class="line4" >
+    <rect fill="#2E313F"
+    width="390"
+    height="1"
+    />
+    </svg>
+
+<div class="t4">Бартерное сотрудничество </div>
+<div class="t_t4">Если нет бюджета, мы поможем <br/>продвинуться среди инфлюенсеров <br/>и блогеров за счет вашего продукта. <br/>Здесь вы платите только за нашу работу,<br/>а иногда вы просто дарите нам ваш<br/>продукт.</div>
+
+<div>
+    <img id="stars2" src="/week_3/assets/images/Ellipse12.png" alt="сотрудничество"/>
+        </div>
+</section>
+
+<section class="body3">
+    <div class="title3">Работаем с блогерами и брендами более 5 лет<br/>через любовь и открытость</div>
+
+    <div class="tez1">Благодаря креативности и экспертности вырастили нескольких блогеров с 10 тысяч подписчиков до 3 млн</div>
+        <div><img id="tezis1" src="/week_3/assets/images/Group3.png" alt="1" /></div>
+
+    <div class="tez2">Разместили сотни рекламных компаний с бюджетом от 15 000  до 3 000 000 рублей</div>
+    <div><img id="tezis2" src="/week_3/assets/images/Group3.png" alt="2" /></div>
+
+    <div class="tez3">Организовали амбассадорство для трех компаний </div>
+    <div><img id="tezis3" src="/week_3/assets/images/Group3.png" alt="3" /></div>
+
+    <div class="tez4">Сделали 30 коллабораций с совокупной аудиторией в 50 миллионов человек</div>
+    <div><img id="tezis4" src="/week_3/assets/images/Group3.png" alt="3" /></div>
+
+<div id="rectangle"></div>
+<div class="text3">Делаем рекламу так, чтобы она вызывала релевантные ассоциации<br/> 
+    и эмоциональный отклик у целевой аудитории</div>
+
+    <div>
+        <img id="heart" src="/week_3/assets/images/heart.png" alt="heart"/>
+            </div>
+</section>
+
+<section class="body4">
+    <div class="title4">Реализованные проекты</div>
+    
+            <div id="rectangle2"></div>
+            <div>
+                <img id="phone" src="/week_3/assets/images/Phones.png" alt="phone"/>
+                    </div>
+</section>
+<section class="body4">
+    <div class="title5">Клиенты</div>
+    <div class="clients">
+        <img src="/week_3/assets/images/Client.png" alt="client"/>
+            </div>
+</section>
+<footer class="footer">
+    <div class="logo2"><span class="one"><b>INFLU</b></span>
+        <span class="two"><b>EMZ</b></span> </div>
+
+    <div class="menu22">
+        <span class="menu1"><a style="color: #F8F7F7" class="net" href='/html/'>Сотрудничество</a></span>
+        <span class="menu2"><a style="color: #F8F7F7" class="net" href='/html/'>Клиенты</a></span>
+        <span class="menu3"><a style="color: #F8F7F7" class="net" href='/html/'>Эффективность</a></span>
+        <span class="menu4"><a style="color: #F8F7F7" class="net" href='/html/'>Как мы работаем</a></span>
+        <span class="menu5"><a style="color: #F8F7F7" class="net" href='/html/'>Проекты</a></span>
+        <span class="menu5"><a style="color: #F8F7F7" class="net" href='/html/'>Контакты</a></span>
+    </div>
+    <div class="adress">
+        © influemz. Все права защищены. 
+    </div>
+
+</footer>
+
+</main>
+
+
+</body>
+</html>
