@@ -1,0 +1,539 @@
+main {
+    display: block;
+}
+
+.body1 {
+    width: 100vw;
+    height: 880px;
+    right: 0px;
+
+
+    background: #493296;
+}
+
+.body2 {
+    width: 100vw;
+    height: 600px;
+}
+
+.body3 {
+
+    width: 100vw;
+    height: 800px;
+    background-color: #F8F9FB;
+}
+
+.body4 {
+
+    width: 100vw;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+}
+
+.body5 {
+
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 480px;
+
+}
+
+.one {
+    margin-left: 120px;
+    font-size: 40px;
+    color: #EC5778;
+}
+
+.two {
+    color: #62D2D0;
+    font-size: 40px;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu1 {
+
+    margin-left: 200px;
+    text-align: center;
+
+    font-size: 18px;
+}
+
+.menu2,
+.menu3,
+.menu4,
+.menu5,
+.menu6 {
+    margin-left: 65px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu {
+    position: absolute;
+    top: 53px;
+    left: 300px;
+    bottom: 40px;
+}
+
+.line {
+    position: absolute;
+    top: 120px;
+    width: 100vw;
+    height: 10px;
+    overflow: hidden;
+}
+
+.net {
+    text-decoration-line: none;
+}
+
+.net:hover {
+    text-decoration-line: underline;
+}
+
+
+h1 {
+    position: absolute;
+    width: 767px;
+    height: 68px;
+    right: 1030px;
+    top: 206px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 68px;
+    /* identical to box height, or 117% */
+    color: #ffffff;
+}
+
+#text {
+    position: absolute;
+    width: 818px;
+    height: 96px;
+    right: 979px;
+    top: 348px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    /* светло/фиолетовый */
+    color: #F7F2FF;
+}
+
+button {
+    position: absolute;
+    width: 247px;
+    height: 65px;
+    right: 1550px;
+    top: 482px;
+
+    background: #EC5778;
+    box-shadow: 0px 10px 50px rgba(236, 87, 120, 0.2);
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: #62D2D0;
+    /* Цвет кнопки при нажатии */
+}
+
+button:hover {
+    background-color: #62D2D0;
+    /* Цвет кнопки при наведении курсора */
+}
+
+a {
+    user-select: none;
+    /* Убираем текстовое выделение */
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    outline: none;
+    /* Убираем контур вокруг ссылки */
+    padding: 1em 2em;
+    /* Отступ от текста до рамки */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    /* Чистый/белый */
+    color: #FFFFFF;
+}
+
+#main1 {
+    position: absolute;
+    width: 937px;
+    height: 664px;
+    left: 944px;
+    top: 158px;
+}
+
+#social1 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 110px;
+    top: 589px;
+}
+
+#social2 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 160px;
+    top: 589px;
+}
+
+.parts_4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    margin-left: 121px;
+    margin-right: 121px;
+}
+
+.title2 {
+    position: absolute;
+    width: 438px;
+    height: 60px;
+    right: 730px;
+    top: 1000px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    /* identical to box height, or 115% */
+
+    text-align: center;
+
+    /* Черный */
+
+    color: #181818;
+}
+
+.title3 {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    padding-left: 488px;
+    padding-top: 100px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 50px;
+    /* identical to box height, or 115% */
+
+    text-align: center;
+
+    /* Черный */
+
+    color: #181818;
+}
+
+.title4 {
+    position: relative;
+    width: 646px;
+    height: 60px;
+    left: 121px;
+    top: 80px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    /* identical to box height, or 115% */
+    /* Черный */
+
+    color: #181818;
+}
+
+.title5 {
+    position: relative;
+    left: 121px;
+    top: 80px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 34px;
+    /* identical to box height, or 155% */
+
+
+    /* черный светлый */
+
+    color: #2E313F;
+}
+
+#stars {
+    position: absolute;
+    left: 690px;
+    top: 930px;
+}
+
+#stars2 {
+    position: absolute;
+    width: 507px;
+    height: 507px;
+    left: 1097px;
+    top: 966px;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    /* Желтый */
+
+}
+
+.line1,
+.line2,
+.line3,
+.line4 {
+    position: relative;
+    width: 350px;
+    height: 0px;
+    top: 150px;
+    /* черный светлый */
+    border: 1px solid #2E313F;
+}
+
+
+
+
+.t1,
+.t2,
+.t3,
+.t4 {
+    position: relative;
+    width: 337px;
+    height: 28px;
+    top: 160px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 28px;
+    /* identical to box height, or 108% */
+
+
+    /* черный светлый */
+
+    color: #2E313F;
+}
+
+
+
+
+.t_t1,
+.t_t2,
+.t_t3,
+.t_t4 {
+    position: relative;
+    width: 389px;
+    height: 210px;
+    top: 180px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    /* черный светлый */
+
+    color: #3c4052;
+}
+
+
+
+
+
+
+.tez1,
+.tez2,
+.tez3,
+.tez4 {
+    position: absolute;
+    left: 620px;
+    width: 900px;
+    height: 64px;
+
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.tez1 {
+    padding-top: 50px;
+}
+
+.tez2 {
+    padding-top: 20px;
+}
+
+.tez3 {
+    padding-top: 10px;
+}
+
+
+#tezis1,
+#tezis2,
+#tezis3,
+#tezis4 {
+    padding-left: 550px;
+    width: 74px;
+    height: 74px;
+}
+
+#tezis1 {
+    padding-top: 50px;
+}
+
+#tezis2 {
+    padding-top: 15px;
+}
+
+#tezis3 {
+    padding-top: 5px;
+}
+
+.rect_3 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 185px;
+    bottom: 0px;
+    background-color: rgb(49, 58, 55);
+
+}
+
+#rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 185px;
+
+    margin-left: 25vw;
+
+    background: #EC5778;
+    border-radius: 2px;
+}
+
+.text_rect {
+    font-family: Montserrat;
+    font-style: normal;
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    /* Белый */
+
+    color: #F8F7F7;
+}
+
+
+#heart {
+
+    width: 35px;
+    height: 35px;
+
+}
+
+#phone {
+    position: relative;
+    width: 1273px;
+    height: 700px;
+    left: 121px;
+    text-align: center;
+    bottom: 30px;
+}
+
+.back4 {
+
+    margin-top: 150px;
+    width: 100vw;
+    height: 720px;
+    background-color: #493296;
+
+}
+
+
+.clients {
+    position: relative;
+    width: 100vw;
+    top: 170px;
+
+
+}
+
+.footer {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    right: 0px;
+
+
+    /* фиолетовый */
+
+    background: #493296;
+}
+
+.logo2 {
+    position: absolute;
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu22 {
+    position: absolute;
+    top: 50px;
+    right: 121px;
+}
+
+.adress {
+    position: absolute;
+    width: 336px;
+    height: 22px;
+    bottom: 40px;
+    left: 45vw;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+
+    /* светло/фиолетовый */
+
+    color: #F7F2FF;
+}
